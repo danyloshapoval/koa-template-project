@@ -1,0 +1,34 @@
+{
+  "name": "koa-template-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development TZ=UTC node index.js",
+    "startd": "NODE_ENV=development TZ=UTC nodemon index.js",
+    "debug": "NODE_ENV=development TZ=UTC node --inspect=127.0.0.1:9228 index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.8",
+    "log4js": "^6.1.2",
+    "pg": "^7.18.2",
+    "sequelize": "^5.21.5"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules
+.env.*
+/src/config/*
+!/src/config/index.js
+!/src/config/config.template.js

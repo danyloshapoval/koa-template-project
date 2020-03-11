@@ -1,0 +1,9 @@
+{
+  "eslint.enable": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
