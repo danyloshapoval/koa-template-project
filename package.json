@@ -27,7 +27,7 @@
     "koa-bodyparser": "^4.2.1",
     "koa-logger": "^3.2.1",
     "koa-router": "^8.0.8",
-    "log4js": "^6.1.2",
+    "log4js": "^6.4.0",
     "pg": "^7.18.2",
     "sequelize": "^5.21.5"
   }
